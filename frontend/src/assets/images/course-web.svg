@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#bg)"/>
+  <circle cx="350" cy="30" r="90" fill="#fff" opacity="0.08"/>
+  <circle cx="40" cy="220" r="70" fill="#fff" opacity="0.08"/>
+  <rect x="80" y="46" width="240" height="150" rx="14" fill="#fff"/>
+  <rect x="80" y="46" width="240" height="26" rx="14" fill="#eef0fd"/>
+  <rect x="80" y="60" width="240" height="12" fill="#eef0fd"/>
+  <circle cx="98" cy="59" r="4" fill="#f87171"/>
+  <circle cx="112" cy="59" r="4" fill="#fbbf24"/>
+  <circle cx="126" cy="59" r="4" fill="#34d399"/>
+  <rect x="100" y="88" width="70" height="8" rx="4" fill="#a5b4fc"/>
+  <rect x="116" y="106" width="110" height="8" rx="4" fill="#c4b5fd"/>
+  <rect x="116" y="124" width="80" height="8" rx="4" fill="#6ee7b7"/>
+  <rect x="116" y="142" width="130" height="8" rx="4" fill="#fcd34d"/>
+  <rect x="100" y="160" width="50" height="8" rx="4" fill="#a5b4fc"/>
+  <circle cx="318" cy="62" r="30" fill="#fbbf24"/>
+  <text x="318" y="70" font-size="22" font-weight="800" fill="#1e1b4b" text-anchor="middle" font-family="monospace">&lt;/&gt;</text>
+</svg>

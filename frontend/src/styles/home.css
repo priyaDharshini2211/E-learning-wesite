@@ -1,0 +1,251 @@
+.home {
+  background: var(--color-bg);
+}
+
+.btn-pill {
+  border-radius: 999px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.home-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  padding: 0.85rem 0;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.home-nav-links {
+  gap: 2rem;
+}
+
+.home-nav-links a {
+  color: var(--color-text-muted);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.home-nav-links a:hover {
+  color: var(--color-primary);
+}
+
+.home-hero {
+  padding: 4.5rem 0 3.5rem;
+  background:
+    radial-gradient(circle at 85% 10%, #e0e7ff 0%, transparent 45%),
+    radial-gradient(circle at 5% 90%, #ede9fe 0%, transparent 40%),
+    var(--color-bg);
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: clamp(2.2rem, 4.5vw, 3.4rem);
+  font-weight: 800;
+  line-height: 1.12;
+  margin-bottom: 1.1rem;
+}
+
+.text-gradient {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-sub {
+  font-size: 1.08rem;
+  color: var(--color-text-muted);
+  max-width: 520px;
+  margin-bottom: 1.75rem;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 560px;
+  display: block;
+  margin: 0 auto;
+}
+
+.home-stats {
+  padding-bottom: 1rem;
+}
+
+.home-stat {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.home-stat-value {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.home-stat-label {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.home-section {
+  padding: 4.5rem 0;
+}
+
+.section-head {
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto 2.5rem;
+}
+
+.section-head h2,
+.home-section h2 {
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  font-weight: 800;
+}
+
+.program-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  height: 100%;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.program-card img {
+  width: 100%;
+  display: block;
+}
+
+.program-body {
+  padding: 1rem 1.1rem 1.2rem;
+}
+
+.program-body h6 {
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.program-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.about-img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.feature {
+  display: flex;
+  gap: 0.9rem;
+}
+
+.feature h6 {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.feature p,
+.step-card p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+}
+
+.feature-icon {
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
+.step-card {
+  position: relative;
+  height: 100%;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.75rem 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.step-card h6 {
+  font-weight: 700;
+}
+
+.step-number {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.4rem;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--color-primary-soft);
+}
+
+.home-cta {
+  padding: 1rem 0 4.5rem;
+}
+
+.cta-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2.5rem 3rem;
+  border-radius: var(--radius-lg);
+  color: #fff;
+  background: linear-gradient(120deg, #312e81 0%, #4f46e5 55%, #7c3aed 100%);
+  box-shadow: 0 16px 36px rgba(79, 70, 229, 0.28);
+}
+
+.cta-box h2 {
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+}
+
+.cta-box p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.home-footer {
+  background: #1e1b4b;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 1.75rem 0;
+}
